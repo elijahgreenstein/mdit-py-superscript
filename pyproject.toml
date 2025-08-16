@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 72"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdit-py-superscript"
+version = "0.1.0"
+authors = [ { name="Elijah Greenstein" } ]
+description = "Plugin for Markdown-It-Py for superscripts."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-markdown-it"]
+
+[project.optional-dependencies]
+testing = [
+  "pytest",
+]
